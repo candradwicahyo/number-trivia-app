@@ -1,4 +1,4 @@
-## Trivia App
+## Number Trivia App
 
 sebuah program dengan nama number trivia app yang dibuat dengan framework bootstrap dan bahasa pemrograman javascript. masukkan sebuah angka antara 0 sampai 300, maka akan muncul beberapa fakta mengenai angka tersebut.
 
