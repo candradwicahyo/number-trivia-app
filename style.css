@@ -1,0 +1,45 @@
+:root {
+  --gray: #f4f7fe
+}
+
+.bg-gray { background: var(--gray); }
+
+.input-custom {
+  position: relative;
+  width: 75%;
+  height: 40px;
+  background: var(--gray);
+  padding: 0 30px;
+  font-size: 13px;
+  font-weight: 300;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.box-content {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  background: var(--gray);
+  margin: 10px 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.box-content .number {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper .input-custom {
+    width: 70%;
+  }
+}
