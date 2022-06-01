@@ -3,7 +3,7 @@ window.onload = () => {
   const number = document.querySelector('.number');
   const text = document.querySelector('.text');
   
-  let url = 'http://numbersapi.com/';
+  let url = 'https://numbersapi.com/';
   
   async function getRandomFact() {
     const limit = 300;
@@ -39,7 +39,7 @@ window.onload = () => {
   });
   
   function validate(number) {
-    if (!number) return sweetalert('error', 'Error', 'isi input terlebih dshulu!');
+    if (!number) return sweetalert('error', 'Error', 'isi input terlebih dahulu!');
     if (number < 0 || number > 300) return sweetalert('error', 'Error', 'isi input antara 0 sampai 300');
     if (number.match(/[a-zA-Z]/gmi)) return sweetalert('error', 'Error', 'input hanya boleh berisikan angka saja!');
     return true;
