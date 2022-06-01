@@ -2,6 +2,10 @@
 
 sebuah program dengan nama number trivia app yang dibuat dengan framework bootstrap dan bahasa pemrograman javascript. masukkan sebuah angka antara 0 sampai 300, maka akan muncul beberapa fakta mengenai angka tersebut.
 
+* catatan
+
+tidak ada demo dari program ini, dikarenakan ada permasalahan ketika api diganti dari http menjadi https. jadi, silahkan jalankan program ini di web server local milik kalian masing"
+
 ### dibuat dengan berikut 
 
 * HTML
@@ -22,9 +26,5 @@ sebuah program dengan nama number trivia app yang dibuat dengan framework bootst
 ![result](https://github.com/candradwicahyo/number-trivia-app/blob/master/preview.jpg)
 
 terinspirasi dari channel [Coding Artist](https://m.youtube.com/watch?v=RoGRFGbeIGk&t=1147s)
-
-
-[tekan link ini untuk mencoba program ini](https://candradwicahyo.github.io/number-trivia-app)
-
 
 > dibuat oleh **candra dwi cahyo**
