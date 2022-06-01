@@ -3,7 +3,7 @@ window.onload = () => {
   const number = document.querySelector('.number');
   const text = document.querySelector('.text');
   
-  let url = 'https://numbersapi.com/';
+  let url = 'http://numbersapi.com/';
   
   async function getRandomFact() {
     const limit = 300;
